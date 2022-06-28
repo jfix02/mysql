@@ -88,7 +88,7 @@ def process_lastname_step(message):
         
         bot.send_message(message.chat.id, "You have successfully registered")
     except Exception as e:
-        bot.reply_to(message, 'Ви уже зарегани')
+        bot.reply_to(message, 'you are already registered')
 
 #function regist
 
